@@ -6,10 +6,10 @@ After some EDA and data cleaning, diffetent machine learning methods are used wi
 
 The final pipeline takes two Dask Dataframes, one with predictos and other with the label, performs dummification of the selected categorical variables, scaling of the numerical ones and fit a random forest model with the pre-selected parameter resulting from GridSearch.
 
-Future work on the pipeline should be done to include the raw data and perform the precleaning part of removing nulls if any, remove outlayers and automatically separate features from label.
+Future work on the pipeline should be done to include the raw data and perform the precleaning work of removing nulls if any, remove outlayers and automatically separate features from label.
 
-A final step for the pipeline would be implementing GridSearch of model parameter withing the pipe.
+A final step for the pipeline would be implementing GridSearch of model parameter within the pipe.
 
-A future step for dask preprocessing would be run the clint job on a cluster of computers.
+A future step for dask preprocessing would be run the client job on a cluster of computers.
 
 Thanks to Juanlu001 for proposing the exercise.
